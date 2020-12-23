@@ -1,0 +1,82 @@
+.yerfall {
+ position: relative;
+ margin: 20px auto 0px;
+ height: 550px;
+ width: 500px;
+ overflow: hidden;
+ background: #eee;
+}
+
+.yerfall img {
+ height: 550px;
+ position: absolute;
+ width: 200px;
+ object-fit: cover;
+ outline: 1px solid #330314;
+ outline-offset: 10px;
+ filter: grayscale(100%);
+ -webkit-filter: grayscale(100%);
+}
+
+.yfimgover {
+ height: 550px;
+ width: 200px;
+ position: absolute;
+ background: #330314;
+ mix-blend-mode: hard-light;
+ opacity: 0.7;
+}
+
+.ml {
+ font-family: Rozha One;
+ position: absolute;
+ color: #eee;
+ font-size: 45px;
+ -webkit-text-stroke: 0.5px #033322;
+text-stroke: 0.5px #033322;
+bottom: 30px;
+left: 50px;
+width: 10px;
+line-height: 100%;
+}
+
+.ib {
+ position: absolute;
+ font-family: istok web;
+ text-transform: uppercase;
+ font-size: 10px;
+ letter-spacing: 10px;
+ color: #fff;
+ text-align: center;
+ width: 550px;
+ bottom: 5px;
+transform: rotate(90deg);
+left: -255px;
+height: 10px;
+top: 275px;
+}
+
+.yftext {
+ position: absolute;
+ font-family: istok web;
+ color: #555;
+ width: 195px;
+ right: 50px;
+ text-align: justify;
+ height: 450px;
+ overflow: auto;
+ top: 50px;
+ font-size: 11px;
+ line-height: 180%;
+ padding-right: 5px;
+}
+
+.yftext::-webkit-scrollbar{width:1px}
+.yftext::-webkit-scrollbar-track{background:transparent!important;border:none!important}
+.yftext::-webkit-scrollbar-thumb{background: #033322}
+
+.yftext b {
+ background: #330314;
+ color: #eee;
+ opacity: 0.7;
+}
